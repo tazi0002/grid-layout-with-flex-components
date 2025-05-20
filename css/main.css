@@ -28,13 +28,23 @@ body {
 }
 
 
+
+.siteheader {
+  text-align: left;
+  margin-bottom: 40px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 10px;
+}
+
 .emojis {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 20px;
-  max-width: 800px;   /* Adjust this to match the mockup more closely */
-  margin: 0 auto;     /* Centers the grid on the page */
-  padding: 0 10px;    /* Optional: adds side padding on small screens */
+  max-width: 800px;   
+  margin: 0 auto;     
+  padding: 0 10px;    
 }
 
 
@@ -46,10 +56,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
-/* Reorder elements using Flexbox */
+
 .emoji .icon {
   order: 0;
   font-size: 48px;
@@ -72,8 +81,8 @@ body {
 
 .emoji a {
   order: 3;
-  align-self: stretch;         /* makes button span full width */
-  text-align: left;            /* text stays left inside button */
+  align-self: stretch;         
+  text-align: left;            
   padding: 10px 15px;
   background-color: #750ae1;
   color: white;
